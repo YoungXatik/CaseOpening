@@ -29,6 +29,7 @@
           <e p="ItemDataBase.cs" t="Include" />
           <e p="ScrollPanel" t="Include">
             <e p="CellManager.cs" t="Include" />
+            <e p="ScrollPanelMovement.cs" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
