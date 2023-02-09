@@ -29,20 +29,16 @@ public class CellManager : MonoBehaviour
 
     [SerializeField] private Transform spawnPoint;
 
-    private float accumulatedWeights;
+    private float _accumulatedWeights;
     
     private void Start()
     {
-        if (itemListCount > _itemDataBase.items.Count)
-        {
-            itemListCount = _itemDataBase.items.Count;
-        }
-        Calculate();
         SpawnRandomItems();
     }
 
     private void SpawnRandomItems()
     {
+        CalculateItemsWeight();
         for (int i = 0; i < itemListCount; i++)
         {
             Item item = _itemDataBase.items[GetItemIndex()];
@@ -55,7 +51,7 @@ public class CellManager : MonoBehaviour
 
     private int GetItemIndex()
     {
-        var random = Random.Range(0f, 1f) * accumulatedWeights;
+        var random = Random.Range(0f, 1f) * _accumulatedWeights;
 
         for (int i = 0; i < _itemDataBase.items.Count; i++)
         {
@@ -68,13 +64,13 @@ public class CellManager : MonoBehaviour
         return 0;
     }
     
-    private void Calculate()
+    private void CalculateItemsWeight()
     {
-        accumulatedWeights = 0f;
+        _accumulatedWeights = 0f;
         foreach (Item item in _itemDataBase.items)
         {
-            accumulatedWeights += item.itemRarityPercent;
-            item.weight = accumulatedWeights;
+            _accumulatedWeights += item.itemRarityPercent;
+            item.weight = _accumulatedWeights;
         }
     }
 }
