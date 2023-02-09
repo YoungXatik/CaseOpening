@@ -8,6 +8,7 @@ public class Item : ScriptableObject
     [field: SerializeField] public Sprite itemSprite { get; private set; }
     
     [field: SerializeField] public Color itemRarityColor { get; private set; }
-    
+
+    public float weight;
     [field: SerializeField] public int itemRarityPercent { get; private set; }
 }

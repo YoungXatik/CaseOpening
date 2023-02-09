@@ -10,10 +10,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemDataBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cell/CellValues.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/CellManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell_UI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ItemDataBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/CellValues.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/CellManager.cs" />
       </list>
     </option>
   </component>
@@ -55,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675940448478</updated>
-      <workItem from="1675940472391" duration="288000" />
+      <workItem from="1675940472391" duration="8720000" />
     </task>
     <servers />
   </component>

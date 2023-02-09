@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <itemName>k__BackingField: Coin
   <itemSprite>k__BackingField: {fileID: 21300000, guid: fc9d7ac77b80e424d9c6d2890f9af52b, type: 3}
-  <itemRarityColor>k__BackingField: {r: 0.9296403, g: 0, b: 1, a: 1}
-  <itemRarityPercent>k__BackingField: 25
+  <itemRarityColor>k__BackingField: {r: 1, g: 0.07058824, b: 0, a: 1}
+  <itemRarityPercent>k__BackingField: 10
