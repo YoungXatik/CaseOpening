@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+[CreateAssetMenu (fileName = "Item", menuName = "Create new item")]
+public class Item : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [field: SerializeField] public string itemName { get; private set; }
+    
+    [field: SerializeField] public Sprite itemSprite { get; private set; }
+    
+    [field: SerializeField] public Color itemRarityColor { get; private set; }
+    
+    [field: SerializeField] public int itemRarityPercent { get; private set; }
 }
