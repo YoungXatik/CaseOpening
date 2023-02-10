@@ -73,4 +73,12 @@ public class CellManager : MonoBehaviour
             item.weight = _accumulatedWeights;
         }
     }
+
+    public void CheckOpenedItem()
+    {
+        for (int i = 0; i < spawnedItems.Count; i++)
+        {
+            
+        }
+    }
 }

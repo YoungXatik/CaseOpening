@@ -13,4 +13,15 @@ public class CellValues : MonoBehaviour
     {
         _cellUI = GetComponent<Cell_UI>();
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log(cellItem.itemName);
+    }
+
+    [ContextMenu("Set Last")]
+    private void Test()
+    {
+        transform.SetAsLastSibling();
+    }
 }

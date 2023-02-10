@@ -11,9 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/Pointer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ItemDataBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cell/CellValues.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollPanel/CellManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -21,10 +23,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Cell/Cell_UI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ItemDataBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/CellValues.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/CellManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/Pointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cell/CellValues.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/ScrollPanelUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScrollPanel/CellManager.cs" />
       </list>
     </option>
   </component>
@@ -67,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675940448478</updated>
       <workItem from="1675940472391" duration="10164000" />
+      <workItem from="1676031551215" duration="7445000" />
     </task>
     <servers />
   </component>
